@@ -1,5 +1,5 @@
 #!/bin/bash
-for PAGENUM in {01..02} ; do
+for PAGENUM in {01..85} ; do
     curl 'https://childcaresearch.apps.lara.state.mi.us/Home/SearchResults' \
       -H 'Connection: keep-alive' \
       -H 'Accept: application/json, text/javascript, */*; q=0.01' \
